@@ -54,8 +54,10 @@ def fake_useragent(nokey="Linux"):
 
 settings = {    
     "START_URL": "", # cap_union_prehandle url 在 txcaptcha 填入
-    # "PROXIES": {}, # 不使用代理
-    "PROXIES": {"http":"socks5://qqhx36:qqhx37@1.194.233.250:10249","https":"socks5://qqhx36:qqhx37@1.194.233.250:10249"},
+    "PROXIES": {}, # 不使用代理
+    # "PROXIES": {"all":"https://ip:port"}, # http 代理 无密码
+    # "PROXIES": {"all":"https://user:pass@ip:port"}, # http 代理 有密码
+    # "PROXIES": {"all":"socks5://user:pass@ip:port"}, # socks 代理 有密码
     "COOKIES": {},
     "DOWNLOAD_DELAY": 0,
     "USER_AGENT": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.87 Safari/537.36",      

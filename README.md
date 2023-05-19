@@ -1,9 +1,16 @@
 # QzoneLoginSpider
-QzoneLoginSpider aid=549000912
+
+qq空间登录例子
+
+api 地址
+
+* [TencentCaptchaBreak](https://github.com/aiden2048/TencentCaptchaBreak)
 
 有需求请在邮箱联系
 
-aiden2048@qq.com
+aidenvannet@gmail.com
+
+......
 
 qq登录 aid=16
 
