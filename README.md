@@ -1,6 +1,6 @@
 # QzoneLoginSpider
 
-qq空间登录例子
+TencentCaptchaBreak qq空间登录案例
 
 api 地址
 
