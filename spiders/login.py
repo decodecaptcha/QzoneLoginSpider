@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# @Author : 艾登Aiden
+# @Email : aidenvannet@gmail.com
 import json
 import requests
 from spiders.spider import Request, Response
