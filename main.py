@@ -51,6 +51,20 @@ def fake_useragent(nokey="Linux"):
     return ua
 
 
+print(r"""
+         _     __          ___   ____  __ __  ____ 
+  ____ _(_)___/ /__  ____ |__ \ / __ \/ // / ( __ )
+ / __ `/ / __  / _ \/ __ \__/ // / / / // /_/ __  |
+/ /_/ / / /_/ /  __/ / / / __// /_/ /__  __/ /_/ /
+\__,_/_/\__,_/\___/_/ /_/____/\____/  /_/  \____/
+
+
+author: aiden2048                                     
+address: https://github.com/aiden2048
+email: aidenvannet@gmail.com
+
+API需求请在邮箱联系 aidenvannet@gmail.com
+""")
 
 settings = {    
     "START_URL": "", # cap_union_prehandle url 在 txcaptcha 填入
