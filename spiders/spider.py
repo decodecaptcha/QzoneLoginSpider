@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # @Author : 艾登Aiden
-# @Email : aiden2048@qq.com
+# @Email : aidencaptcha@gmail.com
 
 import requests
 

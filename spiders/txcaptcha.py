@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # @Author : 艾登Aiden
-# @Email : aidenvannet@gmail.com
+# @Email : aidencaptcha@gmail.com
 import json
 import random
 from loguru import logger
@@ -21,7 +21,7 @@ def txcaptcha(response, *args, **kwargs):
     start_url = f'https://t.captcha.qq.com/cap_union_prehandle?aid={aid}&protocol=https&accver=1&showtype=embed&ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzk1LjAuNDYzOC42OSBTYWZhcmkvNTM3LjM2&noheader=1&fb=1&aged=0&enableAged=0&enableDarkMode=0&sid={sid}&grayscale=1&clientype=2&cap_cd=&uid=&lang=zh-cn&entry_url={entry_url}&elder_captcha=0&js=%2Ftcaptcha-frame.30646403.js&login_appid=&wb=2&subsid=5&callback={callback}&sess='
 
     # 本地 http 服务
-    # API需求请在邮箱联系 aidenvannet@gmail.com
+    # API需求请在邮箱联系 aidencaptcha@gmail.com
     url = "http://localhost:8000/txcaptcha?user=temp"
 
     settings = response.meta["settings"]

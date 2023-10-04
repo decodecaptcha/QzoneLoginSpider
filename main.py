@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # @Author : 艾登Aiden
-# @Email : aidenvannet@gmail.com
+# @Email : aidencaptcha@gmail.com
 
 import time
 
@@ -51,19 +51,17 @@ def fake_useragent(nokey="Linux"):
     return ua
 
 
-print(r"""
-         _     __          ___   ____  __ __  ____ 
-  ____ _(_)___/ /__  ____ |__ \ / __ \/ // / ( __ )
- / __ `/ / __  / _ \/ __ \__/ // / / / // /_/ __  |
-/ /_/ / / /_/ /  __/ / / / __// /_/ /__  __/ /_/ /
-\__,_/_/\__,_/\___/_/ /_/____/\____/  /_/  \____/
-
-
-author: aiden2048                                     
-address: https://github.com/aiden2048
-email: aidenvannet@gmail.com
-
-API需求请在邮箱联系 aidenvannet@gmail.com
+logger.debug(r"""
+    _     _      _                ____                _          _
+   / \   (_)  __| |  ___  _ __   / ___|  __ _  _ __  | |_   ___ | |__    __ _ 
+  / _ \  | | / _` | / _ \| '_ \ | |     / _` || '_ \ | __| / __|| '_ \  / _` |
+ / ___ \ | || (_| ||  __/| | | || |___ | (_| || |_) || |_ | (__ | | | || (_| |
+/_/   \_\|_| \__,_| \___||_| |_| \____| \__,_|| .__/  \__| \___||_| |_| \__,_|
+                                              |_|
+@Author : 艾登科技
+@Email : aidencaptcha@gmail.com
+@Address : https://github.com/aidencaptcha
+@Description : API需求请在邮箱联系 aidencaptcha@gmail.com
 """)
 
 settings = {    
