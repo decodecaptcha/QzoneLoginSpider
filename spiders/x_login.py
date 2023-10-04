@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # @Author : 艾登Aiden
-# @Email : aidenvannet@gmail.com
+# @Email : aidencaptcha@gmail.com
 from spiders.spider import Request, Response
 
 
