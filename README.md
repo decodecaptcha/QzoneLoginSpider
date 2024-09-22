@@ -6,10 +6,7 @@ api 地址
 
 * [TencentCaptchaBreak](https://github.com/aidencaptcha/TencentCaptchaBreak)
 
-有需求请在邮箱联系
-
-aidencaptcha@gmail.com
-
+有需求请访问：https://decodecaptcha.com
 ......
 
 qq登录 aid=16
